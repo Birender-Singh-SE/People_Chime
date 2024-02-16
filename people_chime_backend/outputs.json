@@ -1,0 +1,21 @@
+{
+  "DataStack": {
+    "ExportsOutputRefResumeReviewRequestTableCCDC6BB9AF9D5EB5": "ResumeReviewRequest-0ea7012944e7",
+    "ResumeReviewRequestTableUserIdIndexName": "userId-index-v2",
+    "ExportsOutputFnGetAttReviewRequestResumes500FCC1BArn4B1FEB76": "arn:aws:s3:::review-request-resumes-0ea7012944e7",
+    "ExportsOutputFnGetAttResumeReviewRequestTableCCDC6BB9ArnCDC39110": "arn:aws:dynamodb:us-east-1:207539666287:table/ResumeReviewRequest-0ea7012944e7",
+    "ReviewRequestResumeBucketName": "review-request-resumes-0ea7012944e7"
+  },
+  "LambdaStack": {
+    "ExportsOutputFnGetAttResumeReviewRequestLambdaDD9341F4ArnF7005268": "arn:aws:lambda:us-east-1:207539666287:function:LambdaStack-ResumeReviewRequestLambdaDD9341F4-BevEiwcKgH3h"
+  },
+  "AuthStack": {
+    "PeopleChimeUserPoolClientId": "dfpd52lv2pld1hlv60ogh5htv",
+    "PeopleChimeUserPoolId": "us-east-1_8gn26Gz7U",
+    "PeopleChimeIdentityPoolId": "us-east-1:aefcedce-55bc-41ca-a385-d71ef60f49d6",
+    "ExportsOutputFnGetAttPeopleChimeUserPool7D121E3BArn2D4E2BB8": "arn:aws:cognito-idp:us-east-1:207539666287:userpool/us-east-1_8gn26Gz7U"
+  },
+  "ApiStack": {
+    "PeopleChimeApiEndpointA9EB29A8": "https://qj6ueaj2ui.execute-api.us-east-1.amazonaws.com/prod/"
+  }
+}

@@ -1,0 +1,19 @@
+@url = https://qj6ueaj2ui.execute-api.us-east-1.amazonaws.com/prod/
+
+@token =eyJraWQiOiJ6djRoU3FRRHJUak1iclhRdUExdGdEZG1SbUd6Sng5YVhLRDRBOERWRG1BPSIsImFsZyI6IlJTMjU2In0.eyJvcmlnaW5fanRpIjoiNDc2ODQyYzktMmRjYS00ZmEyLWJhYzgtMjc0Zjk4YjA5MjY3Iiwic3ViIjoiYjRjODM0NzgtZjBlMS03MDI1LWVlOWItMjI4ZjUyODQyZGZkIiwiYXVkIjoiZGZwZDUybHYycGxkMWhsdjYwb2doNWh0diIsImV2ZW50X2lkIjoiMmFkYTljMGMtM2U3Ni00ODgzLTkxY2ItZmRmNTI0YzYxODM2IiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE3MDgwNzg3OTYsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy1lYXN0LTEuYW1hem9uYXdzLmNvbVwvdXMtZWFzdC0xXzhnbjI2R3o3VSIsImNvZ25pdG86dXNlcm5hbWUiOiJwZW9wbGUtY2hpbWUtdXNlci0xIiwiZXhwIjoxNzA4MDgyMzk2LCJpYXQiOjE3MDgwNzg3OTYsImp0aSI6ImU1NjM1NDMzLTRlYTQtNDg3MS04YjY0LTBjYTc2ZTU3MDkwNyJ9.YXfTct1FEz1LZWvDZlMXTVoS3yNBKUTTvOuMed-30iLCOSGpvPNqbavNWQ5nIlQCFmf7FF6lV0W6U7pk1mgD8ggRDkm1zW3NiJ27IiIbS6nysM5f1V7TTv_5CRNvWGd4dXBXnoq0fshygt6zdPYQjVmIrf3LHDNCOcHjmfaN0HT6JkRUhdYGmaR5pvEteoMJRbaNVy8xwRZsquoJaWxRUMaUIIt3By3E5Y-Xyr8BggIfYCV2n-fQYQ070Va1jJI5WqqqSe3x6D_3VIPQP83r_4pJl1BR8how2vkL3U4MM561jZSAXdO9dYZmvOkS5UAn3hJHA4WhJyUkBnIzYIG2sg
+
+GET {{url}}/resume-review-requests/
+Authorization: {{token}}
+###
+
+GET {{url}}/resume-review-requests/?id=2cabbacb-9cc4-4cd8-b711-cb6aa8465fe7
+Authorization: {{token}}
+###
+
+POST {{url}}/resume-review-requests/
+Content-Type: application/json
+Authorization: {{token}}
+{
+   "location" : "India",
+   "name" : "Country"
+}
