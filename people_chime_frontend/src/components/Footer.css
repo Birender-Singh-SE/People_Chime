@@ -1,0 +1,45 @@
+.main {
+    background-color: #1D3557;
+    color: white;
+    /* margin-top: 2%; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.main .container-1 {
+    width: 30%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main .container-1 p {
+    font-size: 15px;
+}
+
+.main .container-2 {
+    width: 33%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+
+.main .container-2 .list {
+    text-align: justify;
+    padding-left: 43%;
+    cursor: pointer;
+
+}
+
+.main .container-3 {
+    width: 33%;
+    margin-left: 2%;
+}
+
+.main .container-3 p {
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 10%;
+}

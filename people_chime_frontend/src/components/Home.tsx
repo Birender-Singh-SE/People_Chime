@@ -1,6 +1,7 @@
 import image from '../assets/landing_page.webp'
 import about from '../assets/about.png'
 import './Home.css'
+import Footer from './Footer';
 
 export default function Home() {
     return (
@@ -46,10 +47,11 @@ export default function Home() {
             <div className="label">
                 <h1>People Chime</h1>
                 <h2>Let's Renew Your Carrer Together</h2>
-                <button className='button'> <span>Submit Your Resume Today</span> </button>
+                <button className='button'> <span>Submit Your Resume Today
+                </span> </button>
             </div>
 
-
+            <Footer />
         </>
     );
 }

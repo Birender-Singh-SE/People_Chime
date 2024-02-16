@@ -65,11 +65,13 @@
     font-size: large;
     font-weight: 400;
     text-align: justify;
+
 }
 
 .label {
     background-color: #F5F7FA;
     padding: 1%;
+    margin-top: 2%;
 }
 
 .label h1 {
